@@ -91,11 +91,20 @@
     <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="colt" />
 
     <!-- system -->
+    <project path="system/apex" name="platform_system_apex" remote="colt" revision="c11" />
+    <project path="system/bt" name="platform_system_bt" remote="colt" revision="c11" />
     <project path="system/core" name="platform_system_core" remote="colt" revision="c11" />
+    <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="colt" revision="c11" />
+    <project path="system/libufdt" name="platform_system_libufdt" remote="colt" revision="c11" />
+    <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="colt" revision="c11" />
     <project path="system/sepolicy" name="platform_system_sepolicy" remote="colt" revision="c11" />
     <project path="system/vold" name="platform_system_vold" remote="colt" revision="c11" />
     <project path="system/netd" name="platform_system_netd" remote="colt" revision="c11" />
-    <project path="system/update_engine" name="system_update_engine" remote="colt" />
+    <project path="system/update_engine" name="system_update_engine" remote="colt" revision="c11" />
+    <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="colt" revision="c11" />
+
+    <!--Tools repos-->
+    <project path="tools/metalava" name="platform_tools_metalava" remote="colt" revision="c11" />
 
     <!-- services -->
     <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="colt" revision="c11" />
@@ -106,7 +115,13 @@
     <project path="vendor/ColtSpares" name="platform_vendor_ColtSpares" remote="colt" revision="c11" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="colt" revision="c11" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="colt" revision="c11" />
-    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="colt" revision="c11" />
+    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="colt" revision="c11" />    
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_commonsys-intf_bluetooth" remote="colt" />
+    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="colt" />
+    <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" remote="colt" />
+    <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="colt" />
+    <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="colt" />
+    <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="colt" />
 
 </manifest>
 
