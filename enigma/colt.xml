@@ -73,6 +73,7 @@
     <project path="external/selinux" name="platform_external_selinux" remote="colt" revision="c11" />
     <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="colt" revision="c11" />
     <project path="external/pulse" name="platform_external_pulse" remote="colt" revision="c11" />
+    <project path="external/sqlite" name="platform_external_sqlite" remote="colt" revision="c11" />
 
     <!-- prebuilts -->
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="colt" revision="c11" />
