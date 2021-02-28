@@ -4,6 +4,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote name="gitlab"  
+        fetch="https://gitlab.com" />
+  
   <remote  name="colt"
            fetch="https://github.com/ColtOSTemp"
            revision="refs/heads/c11" />
