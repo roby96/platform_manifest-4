@@ -59,8 +59,13 @@ Finally to build:
 
   TARGET_BOOT_ANIMATION_RES := 1080x1920 : Please change as per your device resolution
 
-  # Inherit some common Colt stuff.
-  $(call inherit-product, vendor/colt/config/common_full_phone.mk)
+  # Inherit some common ColtOS stuff.
+  $(call inherit-product, vendor/colt/config/common.mk)
+
+  # For Device maintainer and CPU Information
+  PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer=(MaintainerName) \
+    ro.colt.cpu=(DeviceSpecific e.g MSM8996)
  
   and use the following to build:
 
