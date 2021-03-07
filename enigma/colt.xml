@@ -95,6 +95,7 @@
     <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="colt" />
     <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="colt" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="colt"  />
+    <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="colt" />
 
     <!-- system -->
     <project path="system/apex" name="platform_system_apex" remote="colt" revision="c11" />
