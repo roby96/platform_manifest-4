@@ -15,6 +15,10 @@
            fetch="https://github.com/ColtOS-Devices"
            revision="refs/heads/c10" />
 
+  <remote  name="gitlab-colt"
+           fetch="https://gitlab.com/RakeshBatra/"
+           revision="c11" />
+
   <!-- general -->
     <project path="build/make" name="platform_build_make" remote="colt" revision="c11" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -97,6 +101,8 @@
     <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="colt" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="colt"  />
     <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="colt" />
+    <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="colt" />
+
 
     <!-- system -->
     <project path="system/apex" name="platform_system_apex" remote="colt" revision="c11" />
@@ -132,6 +138,9 @@
     <project path="vendor/qcom/opensource/healthd-ext" name="platform_vendor_qcom_opensource_healthd-ext" remote="colt" />
     <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" remote="colt" />
     <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="colt" />
+
+  <!-- Gitlab -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-colt" />
 
 </manifest>
 
